@@ -1,0 +1,28 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "To maintain expense tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect=7070 src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhavalshah454/expense-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dhavalshah454/expense-tracker/issues"
+  },
+  "homepage": "https://github.com/dhavalshah454/expense-tracker#readme",
+  "devDependencies": {
+    "nodemon": "2.0.4"
+  },
+  "dependencies": {
+    "aws-sdk": "2.689.0",
+    "dynamodb": "1.2.1",
+    "restify": "8.5.1",
+    "restify-router": "0.5.1"
+  }
+}
